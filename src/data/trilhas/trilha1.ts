@@ -11,82 +11,82 @@ export const trilha1: Trilha = {
       id: 'semana-1-1',
       numero: 1,
       tema: 'Deus existe?',
-      nucleoDoutrinario: 'Teologia natural e revelação geral',
+      nucleoDoutrinario: 'Revelação geral e teologia natural',
       concluida: false,
       licaoCompleta: {
         id: 'licao-1-1',
         gancho:
-          'Se alguém te perguntar hoje "como você sabe que Deus existe?", o que você responderia? A maioria dos cristãos fica sem resposta. Vamos mudar isso.',
+          'Se alguém te perguntar hoje "como você sabe que Deus existe?", o que você responderia? A maioria dos cristãos fica sem resposta. Não porque a resposta não existe, mas porque nunca parou para pensar nisso. Vamos mudar isso agora.',
         textoBiblicoPrincipal: {
           referencia: 'Romanos 1:19-20',
           texto:
-            'O que de Deus se pode conhecer é manifesto entre eles, porque Deus lhes manifestou. Pois os atributos invisíveis de Deus, assim o seu eterno poder, como também a sua própria divindade, claramente se reconhecem, desde a criação do mundo, sendo percebidos por meio das coisas que foram criadas.',
+            'O que se pode conhecer a respeito de Deus é manifesto entre eles, pois o próprio Deus lhes manifestou. Porque os atributos invisíveis de Deus, o seu eterno poder e sua natureza divina, têm sido vistos claramente desde a criação do mundo, sendo compreendidos por meio das coisas criadas, de forma que tais homens são indesculpáveis.',
           versao: 'NVI',
-          palavrasChave: ['manifesto', 'atributos invisíveis', 'criação', 'eterno poder', 'divindade'],
+          palavrasChave: ['manifesto', 'atributos invisíveis', 'claramente', 'criação', 'indesculpáveis'],
         },
         textosBiblicosApoio: [
           {
             referencia: 'Salmo 19:1-2',
             texto:
-              'Os céus declaram a glória de Deus; o firmamento proclama as obras das suas mãos. Um dia ao outro dia transmite essa mensagem; uma noite à outra noite revela esse conhecimento.',
+              'Os céus proclamam a glória de Deus; o firmamento anuncia as obras das suas mãos. Um dia transmite essa palavra ao outro dia; uma noite revela esse conhecimento à outra noite.',
             versao: 'NVI',
-            palavrasChave: ['céus', 'glória', 'firmamento', 'proclama'],
+            palavrasChave: ['proclamam', 'glória', 'anuncia', 'transmite', 'revela'],
           },
           {
             referencia: 'Atos 17:24-27',
             texto:
-              'O Deus que fez o mundo e tudo o que nele existe é Senhor do céu e da terra e não habita em templos feitos por mãos humanas. E também não é servido por mãos humanas, como se necessitasse de alguma coisa, pois ele mesmo dá a todos a vida, o fôlego e todas as coisas. [...] Isso para que os homens buscassem a Deus e, porventura, tentando apalpá-lo, o achassem, ainda que ele não está longe de cada um de nós.',
+              'O Deus que fez o mundo e tudo o que nele existe é o Senhor do céu e da terra e não habita em templos feitos por mãos humanas. Ele mesmo dá a todos a vida, o fôlego e todas as coisas. De um só fez todos os povos para que habitassem sobre toda a face da terra, a fim de que buscassem a Deus e, talvez, ainda que tateando, o encontrassem — embora não esteja longe de cada um de nós.',
             versao: 'NVI',
-            palavrasChave: ['Senhor', 'vida', 'fôlego', 'buscassem', 'achassem'],
+            palavrasChave: ['Senhor', 'vida', 'fôlego', 'buscassem', 'encontrassem'],
           },
         ],
         contextoHistorico:
-          'Paulo escreve aos Romanos por volta de 57 d.C., numa cidade repleta de templos e deuses. Roma era o centro do mundo antigo — uma metrópole com mais de um milhão de habitantes e altares para dezenas de divindades. O argumento de Paulo não era voltado para cristãos convencidos, mas era uma análise radical da condição humana diante de um Deus que já se revelou. Neste contexto, dizer que Deus se manifesta na criação era ir contra a corrente de um mundo fragmentado em mil religiões. Paulo estabelece que não há desculpa para ignorar Deus — a criação fala por si mesma.',
+          'Paulo escreve a carta aos Romanos por volta de 57 d.C., de Corinto, antes de visitar Roma pela primeira vez. A cidade de Roma era o centro do mundo conhecido: cheia de templos, estátuas de deuses e uma cultura que misturava religião com política e poder. Os romanos não eram ateus — eles acreditavam em muitos deuses e achavam que isso era completamente racional.\n\nO argumento de Paulo em Romanos 1 não era uma defesa da existência de Deus para céticos modernos. Era uma análise da condição humana: Paulo dizia que todo ser humano, em qualquer cultura e em qualquer tempo, já recebeu evidências suficientes da existência de Deus através da própria criação. A questão não era falta de evidência, mas o que cada pessoa faz com ela.',
         palavraOriginal: {
           palavra: 'φανερόν (phanerón)',
           idioma: 'grego',
           pronuncia: 'fah-neh-RON',
-          significado: 'Manifesto, tornado visível, evidente. O que estava oculto sendo revelado ao olhar.',
+          significado: 'Manifesto, tornado visível, evidente. A raiz da palavra carrega a ideia de algo que foi ativamente revelado — não algo que você deduz com esforço, mas algo que se apresenta diante de você.',
           relevancia:
-            'Paulo não diz que Deus pode ser deduzido com esforço intelectual — diz que Ele já se tornou visível. A revelação é ativa, não passiva. Deus não se esconde: Ele se mostra. A questão não é se Deus existe, mas por que os seres humanos resistem ao que já está diante deles.',
+            'Paulo não diz que Deus "pode ser encontrado" se você procurar bastante. Ele diz que Deus já se tornou visível. A revelação é ativa: Deus está agindo, comunicando. A criação não é um quebra-cabeça que exige solução — é uma mensagem que já está sendo transmitida.',
         },
-        explicacaoDoutrina: `A teologia natural é a capacidade de conhecer algo sobre Deus por meio da criação, sem precisar da Bíblia. Paulo, em Romanos 1, afirma que essa revelação é suficiente para tornar os seres humanos sem desculpa diante de Deus.
+        explicacaoDoutrina: `Existe uma distinção clássica na teologia cristã entre dois tipos de revelação de Deus. A revelação especial é a Bíblia — Deus falando diretamente através das Escrituras, dos profetas e de Jesus. A revelação geral é tudo o que Deus comunica através da criação, da história e da própria consciência humana. Romanos 1 fala desse segundo tipo.
 
-Chamamos isso de revelação geral: Deus se revelou a todas as pessoas, em todos os tempos, por meio do mundo criado. A revelação especial é a Bíblia — um nível mais profundo e específico de conhecimento. Mas a revelação geral antecede e complementa a Escritura.
+A ideia é simples, mas poderosa: você não precisa de uma Bíblia para saber que existe um Criador. O próprio universo comunica isso. Quando você olha para a complexidade de uma célula, para a precisão das órbitas planetárias ou para a beleza de uma montanha ao entardecer, está recebendo uma mensagem. Não uma mensagem que prova Deus como uma equação matemática, mas uma mensagem que aponta para além do próprio universo.
 
-O que a criação revela? Pelo menos três coisas: que existe um Criador com poder eterno (a complexidade e grandiosidade do universo apontam para uma causa além dele mesmo), que esse Criador é inteligente e ordenado (as leis da física, da matemática, da biologia mostram design e coerência), e que esse Criador se importa com a vida (a abundância e a beleza do mundo vão além do necessário para a mera sobrevivência).
+Os filósofos chamaram esse raciocínio de "argumento do design" ou "argumento cosmológico". A ideia básica: onde há ordem complexa e específica, há informação. Onde há informação, há inteligência por trás dela. O universo tem os dois em abundância. Isso não resolve todas as perguntas sobre Deus, mas aponta para uma conclusão racional: esse nível de organização não emergiu do nada.
 
-Para um jovem cristão, isso significa que a fé não exige desligar o cérebro. Pelo contrário: pensar honestamente sobre o universo é um ato de adoração. Cada vez que você se maravilha com algo na criação — um céu estrelado, a complexidade de uma célula, a força de uma cachoeira — você está sendo tocado pela voz de um Deus que escolheu se revelar.`,
+O ponto mais importante de Romanos 1, porém, não é filosófico — é pessoal. Paulo diz que Deus "manifestou" essas coisas a todos os seres humanos. Isso significa que você já está em contato com evidências de Deus, mesmo sem perceber. A questão que fica é: o que você faz com isso? A fé cristã não pede que você desligue a razão. Ela convida você a levar a sério o que já está diante dos seus olhos.`,
         citacaoAutor: {
           autor: 'C.S. Lewis',
           citacao:
-            'Acreditar em Deus não significa acreditar em algo sem evidências. Significa confiar naquele que tem dado evidências suficientes para um coração disposto a ver.',
+            'Eu acreditei que o sol havia nascido — não porque eu pudesse prová-lo, mas porque por sua luz eu era capaz de ver tudo o mais.',
           contextoAutor:
-            'C.S. Lewis foi um dos maiores escritores e apologistas cristãos do século XX. Mas ele começou como ateu convicto — um homem que usava a razão para rejeitar Deus. Sua jornada intelectual de retorno à fé está narrada em "Surpreendido pela Alegria". Lewis se tornou cristão não por sentimento, mas por evidências que ele mesmo, a contragosto, não conseguiu mais ignorar.',
+            'Clive Staples Lewis (1898–1963) foi professor em Oxford e Cambridge, e é um dos escritores cristãos mais influentes do século XX. O detalhe que poucos sabem: ele era ateu convicto até os 32 anos. Sua conversão foi lenta, racional e custosa. Ele descreve todo o processo no livro "Surpreendido pela Alegria". Lewis não se tornou cristão por emoção — foi convencido pelos argumentos e por uma honestidade intelectual que o impediu de continuar ignorando o que a evidência apontava.',
           relevanciaParaLicao:
-            'Lewis viveu na pele a tensão entre razão e fé. Quando ele fala em "coração disposto a ver", está reconhecendo que o problema do ateísmo muitas vezes não é falta de evidências, mas uma resistência da vontade. Isso ressoa com o argumento de Paulo: a revelação geral existe, mas pode ser suprimida.',
+            'Lewis não está falando de uma fé cega — está falando de uma fé que funciona como uma luz que torna tudo mais visível e inteligível. Assim como você não precisa provar a existência do sol antes de usá-lo para enxergar, você não precisa de uma prova matemática de Deus para começar a ver o mundo através da perspectiva que a fé oferece. A revelação geral é esse ponto de partida: algo que já ilumina, mesmo antes de você nomear de onde vem a luz.',
         },
         evidenciaExterna: {
           tipo: 'pesquisa',
-          titulo: 'Intuição Teísta Natural',
+          titulo: 'Intuição Teísta — Cognition, Religion and Theology Project',
           descricao:
-            'Estudo de 2018 conduzido pela Universidade de Oxford, dentro do projeto "Cognition, Religion and Theology" (financiado pela Fundação John Templeton), pesquisou mais de 57 países e indicou que seres humanos possuem uma tendência cognitiva natural a perceber intencionalidade e design no mundo ao redor. Pesquisadores chamaram esse fenômeno de "intuição teísta" — uma disposição cognitiva que parece ser universal e transcultural. Isso não prova a existência de Deus, mas demonstra que a ideia não é irracional nem artificial — pode ser a resposta natural da mente humana diante da criação.',
-          fonte: 'Projeto Cognition, Religion and Theology — Universidade de Oxford (2018)',
+            'Um dos maiores projetos acadêmicos sobre religião e cognição foi desenvolvido pela Universidade de Oxford entre 2007 e 2012. Uma das descobertas centrais: seres humanos têm uma tendência cognitiva natural de perceber intencionalidade e agência em fenômenos do mundo. Os pesquisadores chamaram isso de "intuição teísta". Essa tendência aparece em crianças de culturas completamente diferentes, mesmo sem educação religiosa explícita. O estudo não prova a existência de Deus — mas mostra que a crença em um Criador não é uma superstição irracional. Ela corresponde a algo na estrutura cognitiva humana que percebe design onde há design. Isso é exatamente o que Paulo chama de algo que foi "manifesto" em todos.',
+          fonte: 'Barrett, J. L. (2012). Born Believers: The Science of Children\'s Religious Belief. Free Press. / Universidade de Oxford (2007–2012)',
         },
         aplicacaoPratica: [
-          'Quando você olha para o céu estrelado ou para algo complexo na natureza — uma folha, um olho humano, o padrão das ondas —, o que passa pela sua cabeça? Isso é revelação geral em ação. Deus falando sem palavras.',
-          'Se um amigo te desafiar com "como você sabe que Deus existe?", você pode apontar para o que a criação comunica antes mesmo de abrir a Bíblia. O mundo visível faz referência ao invisível.',
-          'A fé cristã não pede que você desligue o cérebro. Ela convida a pensar com honestidade e abertura sobre o que o mundo ao redor comunica. Cada pergunta honesta te aproxima, não te afasta de Deus.',
+          'Quando você olhar para o céu estrelado, para um animal complexo ou para qualquer coisa na natureza que te deixar sem palavras, reconheça: você está recebendo uma mensagem. Isso é revelação geral em ação. Não é misticismo — é o que Romanos 1 chama de "claramente visível".',
+          'Se um amigo ou colega te desafiar com "mas você tem prova de que Deus existe?", você já tem um ponto de partida honesto: a criação aponta para algo além de si mesma. Você não precisa ter todas as respostas. Basta ser honesto sobre o que o universo comunica.',
+          'A fé cristã não pede que você abandone o pensamento crítico. Ela pede que você leve a sério as evidências que já estão diante de você. Começar a estudar a Bíblia não é substituir a razão pela fé — é aprofundar uma conversa que a criação já iniciou.',
         ],
         perguntaReflexao:
-          'Tem alguma coisa na criação que, quando você vê ou experimenta, te faz sentir que há algo maior do que você mesmo? O que é, e por que você acha que isso acontece?',
+          'Tem alguma coisa na criação — uma paisagem, um animal, um fenômeno da natureza, ou até algo complexo que você estudou — que, quando você vê ou experimenta, te faz sentir que há algo maior do que você mesmo? O que é essa coisa e por que acha que ela provoca isso em você?',
         oracaoModelo: {
           adoracao:
-            'Deus, tu te revelaste no que fizeste. Cada detalhe da criação fala de ti, e eu quero aprender a ouvir essa voz com mais atenção. Que eu nunca passe pelo mundo sem perceber tua presença nele.',
+            'Deus, tu te revelaste no que fizeste. Cada detalhe da criação fala de ti — a complexidade de um ser vivo, a imensidão do universo, a ordem que sustenta tudo. Eu quero aprender a ouvir essa voz com mais atenção e reconhecer a tua presença no que está ao meu redor todos os dias.',
           confissao:
-            'Confesso que muitas vezes passo pelo mundo sem notar tua presença. Deixo que a correria, as telas e os ruídos abafem o que tu colocaste visível ao meu redor. Perdoa-me por suprimir o que tu declaras.',
+            'Confesso que muitas vezes passo pelo mundo sem notar o que ele comunica. Deixo o barulho do dia a dia cobrir uma mensagem que tu já estás enviando. Que os meus olhos se abram para o que sempre esteve visível, e que a minha mente esteja disposta a levar a sério o que encontrar.',
           pedido:
-            'Me dá coragem para buscar respostas com honestidade e fé para confiar em ti no que ainda não entendo completamente. Que a criação não seja apenas cenário para minha vida, mas uma voz que me leva a ti todos os dias.',
+            'Me dá coragem para buscar respostas com honestidade e sem medo do que vou descobrir. E me dá fé para confiar em ti no que ainda não entendo completamente, sabendo que tu não és um Deus escondido, mas um Deus que escolheu se mostrar.',
         },
       },
       microInteracoes: [
@@ -98,10 +98,10 @@ Para um jovem cristão, isso significa que a fé não exige desligar o cérebro.
           concluida: false,
           conteudo: {
             referencia: 'Salmo 19:1',
-            texto: 'Os céus declaram a glória de Deus; o firmamento proclama as obras das suas mãos.',
+            texto: 'Os céus proclamam a glória de Deus; o firmamento anuncia as obras das suas mãos.',
             versao: 'NVI',
             reflexao:
-              'O salmista diz que os céus "declaram" — é um verbo ativo. O universo não é silencioso: ele fala. Hoje, pause por 60 segundos olhando para o céu (ou para qualquer elemento da natureza) e ouça o que ele diz sobre quem o criou.',
+              'O salmista usa dois verbos ativos: "proclamam" e "anuncia". O céu não é passivo — ele está o tempo todo transmitindo algo. Hoje, em algum momento do dia, olhe para cima ou para qualquer coisa na natureza e faça uma pausa de 30 segundos. O que você consegue "ouvir"?',
           } as import('../../types').VersiculoConteudo,
         },
         {
@@ -111,35 +111,75 @@ Para um jovem cristão, isso significa que a fé não exige desligar o cérebro.
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            pergunta: 'Segundo Romanos 1:19-20, o que pode ser conhecido sobre Deus por meio da criação?',
+            pergunta: 'O que Paulo chama de "revelação geral" em Romanos 1?',
             opcoes: [
               {
                 id: 'a',
-                texto: 'O plano de salvação completo',
+                texto: 'A Bíblia e os ensinamentos de Jesus',
                 correta: false,
                 explicacao:
-                  'O plano de salvação pertence à revelação especial (a Bíblia), não à revelação geral. A criação revela atributos de Deus, mas não o Evangelho.',
+                  'A Bíblia é a revelação especial — mais específica e direta. A revelação geral é anterior à Escritura e chega a todos os seres humanos através da criação.',
               },
               {
                 id: 'b',
-                texto: 'Seu eterno poder e divindade',
+                texto: 'O que Deus comunica através da criação e da consciência humana',
                 correta: true,
                 explicacao:
-                  'Paulo afirma que "os atributos invisíveis de Deus, assim o seu eterno poder, como também a sua própria divindade, claramente se reconhecem" pela criação. Essa é a revelação geral.',
+                  'Revelação geral é o que Deus comunica a todos os seres humanos através da criação, da história e da consciência — independente de terem acesso à Bíblia. É por isso que Paulo diz que todos são "indesculpáveis".',
               },
               {
                 id: 'c',
-                texto: 'Apenas que Deus é bom',
+                texto: 'As visões e sonhos dos profetas do Antigo Testamento',
                 correta: false,
                 explicacao:
-                  'A bondade de Deus pode ser percebida na criação, mas Paulo é mais específico: é o eterno poder e a divindade que ficam claros.',
+                  'Visões e sonhos dos profetas fazem parte da revelação especial — Deus comunicando algo específico a pessoas específicas. A revelação geral é universal e contínua, disponível a todos.',
               },
               {
                 id: 'd',
-                texto: 'Nada — Deus é incompreensível',
+                texto: 'Os milagres registrados nos Evangelhos',
                 correta: false,
                 explicacao:
-                  'Paulo diz exatamente o oposto: a revelação de Deus na criação é suficiente para deixar os seres humanos "sem desculpa". Não conhecer Deus não é um problema de ausência de evidências.',
+                  'Os milagres dos Evangelhos são revelação especial — eventos históricos únicos. A revelação geral não depende de milagres: ela está na estrutura ordinária da criação.',
+              },
+            ],
+          } as import('../../types').QuizConteudo,
+        },
+        {
+          id: 'micro-1-1-2b',
+          diaDaSemana: 2,
+          tipo: 'quiz',
+          xpRecompensa: 10,
+          concluida: false,
+          conteudo: {
+            pergunta: 'O que a palavra grega "phanerón" significa no contexto de Romanos 1:19?',
+            opcoes: [
+              {
+                id: 'a',
+                texto: 'Algo escondido que precisa ser descoberto com muito esforço',
+                correta: false,
+                explicacao:
+                  '"Phanerón" é o oposto disso. Paulo não está dizendo que Deus se esconde e exige uma busca árdua. Ele está dizendo que Deus já se apresentou — a iniciativa foi dele.',
+              },
+              {
+                id: 'b',
+                texto: 'Uma hipótese filosófica sobre a origem do universo',
+                correta: false,
+                explicacao:
+                  'Paulo não está fazendo filosofia abstrata. "Phanerón" descreve algo concreto e já realizado: Deus se tornando visível através da criação. Não é uma teoria — é uma declaração de fato.',
+              },
+              {
+                id: 'c',
+                texto: 'Algo tornado visível e manifesto ativamente',
+                correta: true,
+                explicacao:
+                  '"Phanerón" carrega a ideia de algo que foi ativamente revelado — não que você deduz com muito esforço, mas que se apresenta diante de você. Paulo está dizendo que Deus age ativamente para se comunicar através da criação.',
+              },
+              {
+                id: 'd',
+                texto: 'Um mistério reservado apenas para os estudiosos',
+                correta: false,
+                explicacao:
+                  'Pelo contrário: "phanerón" indica exatamente que não há restrição de acesso. O que Deus comunicou através da criação está disponível a todos — não apenas aos eruditos ou religiosos.',
               },
             ],
           } as import('../../types').QuizConteudo,
@@ -151,9 +191,9 @@ Para um jovem cristão, isso significa que a fé não exige desligar o cérebro.
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            descricao: 'Saia e observe algo na natureza hoje.',
+            descricao: 'Saia do ambiente fechado por pelo menos 5 minutos.',
             instrucao:
-              'Escolha qualquer elemento natural — uma planta, o céu, um animal, a chuva, o vento. Observe por pelo menos 2 minutos. Depois, anote aqui o que esse detalhe te diz sobre quem o criou. Não precisa ser teológico — seja honesto com o que você sentiu ou pensou.',
+              'Pode ser uma calçada, uma praça, uma janela com vista para o céu — qualquer coisa que te coloque em contato com o mundo exterior. Deixe o celular no bolso. Observe algo específico: uma planta, um inseto, as nuvens, a luz do sol. Depois, anote em uma ou duas frases o que você observou e o que aquilo te comunicou.',
           } as import('../../types').DesafioConteudo,
         },
         {
@@ -165,11 +205,11 @@ Para um jovem cristão, isso significa que a fé não exige desligar o cérebro.
           conteudo: {
             autor: 'Agostinho de Hipona',
             citacao:
-              'Nos fizeste para ti, e o nosso coração está inquieto enquanto não repousa em ti.',
+              'Nos fizeste para ti, Senhor, e o nosso coração está inquieto enquanto não repousa em ti.',
             comentario:
-              'Essa frase abre as Confissões, uma das obras mais importantes da história do pensamento cristão. Agostinho não está falando de uma inquietação patológica — ele está descrevendo algo que toda pessoa sente: que existe um vazio que o mundo não consegue preencher. Segundo ele, essa inquietação é ela mesma uma evidência de que fomos feitos para algo maior.',
+              'A "inquietação" que Agostinho descreve tem tudo a ver com a revelação geral que estudamos essa semana. Existe algo no ser humano que não se satisfaz com nada do que o mundo oferece — riqueza, prazer, reconhecimento — porque foi feito para algo maior. Esse vazio não é um defeito. É uma bússola apontando para Deus.',
             contextoAutor:
-              'Agostinho (354-430 d.C.) foi um dos maiores teólogos da história da Igreja. Mas antes de ser cristão, ele buscou preenchimento em filosofia, prazer e poder. Sua conversão é uma das mais famosas da história. Nas Confissões, ele narra como tentou por anos fugir de Deus — e como Deus o encontrou mesmo assim. Assim como Paulo em Romanos 1, Agostinho acreditava que a busca por Deus está inscrita na própria natureza humana.',
+              'Agostinho (354–430 d.C.) nasceu no norte da África, filho de uma mãe cristã chamada Mônica. Por anos viveu longe da fé — inteligente, ambicioso e em busca de prazer e reconhecimento. Mas essa inquietação nunca o deixou. Depois de uma longa jornada, foi se tornar um dos maiores teólogos da história cristã. Essa frase abre suas "Confissões", um dos livros mais importantes já escritos.',
           } as import('../../types').CitacaoConteudo,
         },
         {
@@ -180,8 +220,8 @@ Para um jovem cristão, isso significa que a fé não exige desligar o cérebro.
           concluida: false,
           conteudo: {
             pergunta:
-              'Depois dessa semana estudando Romanos 1 e o tema da revelação geral, como você responderia se alguém te perguntasse: "Como você sabe que Deus existe?"',
-            dica: 'Use o que aprendeu sobre revelação geral, a palavra "phanerón" e o argumento de Paulo. Sua resposta não precisa ser perfeita — seja genuíno.',
+              'Depois de estudar essa semana sobre revelação geral e o que a criação comunica sobre Deus: se um amigo te perguntasse "como você sabe que Deus existe?", o que você responderia agora? Escreva como se estivesse explicando para alguém que nunca pensou sobre isso.',
+            dica: 'Use o que aprendeu sobre revelação geral, a palavra "phanerón" e o argumento de Paulo. Não precisa ser uma resposta perfeita — seja genuíno e honesto sobre onde você está.',
           } as import('../../types').RevisaoConteudo,
         },
       ],

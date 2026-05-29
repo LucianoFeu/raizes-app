@@ -26,3 +26,5 @@ generate-icons.mjs
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

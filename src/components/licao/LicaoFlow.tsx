@@ -240,6 +240,197 @@ function TelaOracao({ licao }: { licao: LicaoCompleta }) {
   )
 }
 
+// ── Tela FlashCards ──────────────────────────────────────────────────────────
+function TelaFlashCards({ licao }: { licao: LicaoCompleta }) {
+  const cards = licao.flashCards ?? []
+  const [atual, setAtual] = useState(0)
+  const [virado, setVirado] = useState(false)
+  const [vistos, setVistos] = useState<Set<number>>(new Set())
+  const [animKey, setAnimKey] = useState(0)
+
+  const card = cards[atual]
+  const totalVistos = vistos.size
+
+  const handleVirar = () => {
+    if (!virado) setVistos((prev) => new Set([...prev, atual]))
+    setVirado((v) => !v)
+  }
+
+  const navegar = (dir: 1 | -1) => {
+    const proximo = atual + dir
+    if (proximo < 0 || proximo >= cards.length) return
+    setVirado(false)
+    setAnimKey((k) => k + 1)
+    setTimeout(() => setAtual(proximo), 60)
+  }
+
+  if (cards.length === 0) return null
+
+  return (
+    <div className="flex flex-col gap-5 animate-fade-up">
+      {/* Header */}
+      <div className="flex items-center justify-between px-1">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: 'var(--text-3)' }}>
+            Flashcards
+          </p>
+          <p className="text-sm font-bold mt-0.5" style={{ color: 'var(--text-1)' }}>
+            Fixação do conteúdo
+          </p>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="pill" style={{ fontSize: 11 }}>
+            {atual + 1}/{cards.length}
+          </span>
+          {totalVistos === cards.length && (
+            <span className="pill pill-green" style={{ fontSize: 11 }}>✓ Todos vistos</span>
+          )}
+        </div>
+      </div>
+
+      {/* Dots de progresso */}
+      <div className="flex gap-1.5 justify-center">
+        {cards.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => { setVirado(false); setAnimKey((k) => k + 1); setTimeout(() => setAtual(i), 60) }}
+            className="rounded-full transition-all duration-300"
+            style={{
+              width: i === atual ? 20 : 7,
+              height: 7,
+              background: vistos.has(i)
+                ? 'var(--green-true)'
+                : i === atual
+                  ? '#A5B4FC'
+                  : 'rgba(255,255,255,0.1)',
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Card com flip */}
+      <div className="flip-scene" style={{ minHeight: 280 }} key={animKey}>
+        <div
+          className={`flip-card-inner animate-card-enter ${virado ? 'flipped' : ''}`}
+          onClick={handleVirar}
+          style={{ minHeight: 280 }}
+        >
+          {/* Frente — Pergunta */}
+          <div
+            className="flip-card-face card-accent rounded-3xl flex flex-col"
+            style={{
+              minHeight: 280,
+              padding: '28px 24px',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden',
+              userSelect: 'none',
+            }}
+          >
+            {/* Orb decorativo */}
+            <div className="absolute top-0 right-0 w-32 h-32 pointer-events-none" style={{ background: 'radial-gradient(circle at 100% 0%, rgba(139,92,246,0.25), transparent 70%)' }} />
+            <div className="absolute bottom-0 left-0 w-24 h-24 pointer-events-none" style={{ background: 'radial-gradient(circle at 0% 100%, rgba(99,102,241,0.15), transparent 70%)' }} />
+
+            <div className="relative z-10 flex flex-col h-full">
+              {/* Label topo */}
+              <div className="flex items-center gap-2 mb-5">
+                <div
+                  className="w-7 h-7 rounded-xl flex items-center justify-center text-sm font-black"
+                  style={{ background: 'var(--indigo-dim)', border: '1px solid var(--indigo-border)', color: '#A5B4FC' }}
+                >
+                  ?
+                </div>
+                <span className="text-xs font-bold" style={{ color: '#A5B4FC' }}>Pergunta</span>
+              </div>
+
+              {/* Texto da pergunta */}
+              <p className="text-base font-semibold leading-relaxed flex-1" style={{ color: 'var(--text-1)', letterSpacing: '-0.01em' }}>
+                {card.pergunta}
+              </p>
+
+              {/* Hint */}
+              <div className="flex items-center justify-center gap-1.5 mt-5 pt-4" style={{ borderTop: '1px solid rgba(99,102,241,0.15)' }}>
+                <span className="text-sm">👆</span>
+                <p className="text-xs font-semibold" style={{ color: 'var(--text-3)' }}>
+                  {virado ? 'Toque para ver a pergunta' : 'Toque para revelar a resposta'}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Verso — Resposta */}
+          <div
+            className="flip-card-back rounded-3xl flex flex-col"
+            style={{
+              minHeight: 280,
+              padding: '28px 24px',
+              cursor: 'pointer',
+              position: 'absolute',
+              background: 'linear-gradient(145deg, #071C18, #0C2820)',
+              border: '1px solid var(--green-border)',
+              boxShadow: '0 4px 24px rgba(52,211,153,0.15)',
+              overflow: 'hidden',
+              userSelect: 'none',
+            }}
+          >
+            <div className="absolute top-0 right-0 w-32 h-32 pointer-events-none" style={{ background: 'radial-gradient(circle at 100% 0%, rgba(52,211,153,0.18), transparent 70%)' }} />
+
+            <div className="relative z-10 flex flex-col h-full">
+              {/* Label topo */}
+              <div className="flex items-center gap-2 mb-5">
+                <div
+                  className="w-7 h-7 rounded-xl flex items-center justify-center text-sm"
+                  style={{ background: 'var(--green-dim)', border: '1px solid var(--green-border)' }}
+                >
+                  ✓
+                </div>
+                <span className="text-xs font-bold" style={{ color: 'var(--green-true)' }}>Resposta</span>
+              </div>
+
+              {/* Texto da resposta */}
+              <p className="text-base font-semibold leading-relaxed flex-1" style={{ color: 'var(--text-1)', letterSpacing: '-0.01em' }}>
+                {card.resposta}
+              </p>
+
+              <div className="flex items-center justify-center gap-1.5 mt-5 pt-4" style={{ borderTop: '1px solid rgba(52,211,153,0.12)' }}>
+                <span className="text-sm">👆</span>
+                <p className="text-xs font-semibold" style={{ color: 'var(--text-3)' }}>Toque para ver a pergunta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Navegação prev/next */}
+      <div className="flex gap-3">
+        <button
+          onClick={() => navegar(-1)}
+          disabled={atual === 0}
+          className="flex-1 py-3 rounded-2xl font-bold text-sm transition-all disabled:opacity-30"
+          style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid var(--border)', color: 'var(--text-2)' }}
+        >
+          ← Anterior
+        </button>
+        <button
+          onClick={() => navegar(1)}
+          disabled={atual === cards.length - 1}
+          className="flex-1 py-3 rounded-2xl font-bold text-sm transition-all disabled:opacity-30"
+          style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid var(--border)', color: 'var(--text-2)' }}
+        >
+          Próximo →
+        </button>
+      </div>
+
+      {/* Dica de atalho */}
+      <p className="text-center text-xs" style={{ color: 'var(--text-3)' }}>
+        {totalVistos < cards.length
+          ? `Vire os ${cards.length - totalVistos} card${cards.length - totalVistos > 1 ? 's' : ''} restante${cards.length - totalVistos > 1 ? 's' : ''} para continuar`
+          : 'Todos os cards revisados! Clique em Continuar.'}
+      </p>
+    </div>
+  )
+}
+
 function TelaConclusao({ xpGanho, onVoltar }: { xpGanho: number; onVoltar: () => void }) {
   return (
     <div className="flex flex-col items-center justify-center text-center px-4 pt-12 gap-6 animate-fade-up">
@@ -277,21 +468,34 @@ export function LicaoFlow({ trilha, semana }: Props) {
   const [, setConcluida] = useState(jaConcluida)
 
   const temEvidencia = !!licao.evidenciaExterna
-  const TOTAL = temEvidencia ? 11 : 10
+  const temFlashCards = (licao.flashCards?.length ?? 0) > 0
+  const adj = temEvidencia ? 0 : -1
 
+  // Índices fixos de cada tela
+  const TELA_APLICACAO  = 7 + adj
+  const TELA_REFLEXAO   = 8 + adj
+  const TELA_ORACAO     = 9 + adj
+  const TELA_FLASH      = 10 + adj                       // só se temFlashCards
+  const TELA_CONCLUSAO  = temFlashCards ? 11 + adj : 10 + adj
+  const TOTAL           = TELA_CONCLUSAO + 1
 
-  const telaReflexao = temEvidencia ? 8 : 7
-  const podeContinuar = tela !== telaReflexao || resposta.trim().length >= 50
-  const isUltima = tela === TOTAL - 1
+  const podeContinuar = tela !== TELA_REFLEXAO || resposta.trim().length >= 50
+  const isUltima = tela === TELA_CONCLUSAO
 
   const handleAvancar = () => {
     if (!podeContinuar) return
-    if (tela === TOTAL - 2) {
-      if (resposta.trim().length >= 50) salvarReflexao(semana.id, licao.perguntaReflexao, resposta)
-      if (!jaConcluida) concluirLicao(licao.id, semana.id, trilha.id)
+
+    // Salva reflexão ao sair daquela tela
+    if (tela === TELA_REFLEXAO && resposta.trim().length >= 50)
+      salvarReflexao(semana.id, licao.perguntaReflexao, resposta)
+
+    // Conclui lição ao sair da oração (antes dos flashcards/conclusão)
+    if (tela === TELA_ORACAO && !jaConcluida) {
+      concluirLicao(licao.id, semana.id, trilha.id)
       setConcluida(true)
     }
-    const proxima = Math.min(tela + 1, TOTAL - 1)
+
+    const proxima = Math.min(tela + 1, TELA_CONCLUSAO)
     setTela(proxima)
     salvarProgressoLicao(licao.id, proxima)
   }
@@ -304,11 +508,11 @@ export function LicaoFlow({ trilha, semana }: Props) {
     if (tela === 4) return <TelaExplicacao licao={licao} />
     if (tela === 5) return <TelaCitacaoAutor licao={licao} />
     if (temEvidencia && tela === 6) return <TelaEvidencia licao={licao} />
-    const a = temEvidencia ? 0 : -1
-    if (tela === 7 + a) return <TelaAplicacao licao={licao} />
-    if (tela === 8 + a) return <TelaReflexao licao={licao} resposta={resposta} setResposta={setResposta} />
-    if (tela === 9 + a) return <TelaOracao licao={licao} />
-    if (tela === 10 + a) return <TelaConclusao xpGanho={100 + (resposta.trim().length >= 50 ? 20 : 0)} onVoltar={() => navigate('/')} />
+    if (tela === TELA_APLICACAO) return <TelaAplicacao licao={licao} />
+    if (tela === TELA_REFLEXAO)  return <TelaReflexao licao={licao} resposta={resposta} setResposta={setResposta} />
+    if (tela === TELA_ORACAO)    return <TelaOracao licao={licao} />
+    if (tela === TELA_FLASH && temFlashCards) return <TelaFlashCards licao={licao} />
+    if (tela === TELA_CONCLUSAO) return <TelaConclusao xpGanho={100 + (resposta.trim().length >= 50 ? 20 : 0)} onVoltar={() => navigate('/')} />
     return null
   }
 

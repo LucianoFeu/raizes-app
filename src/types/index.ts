@@ -33,6 +33,11 @@ export type OracaoModelo = {
   pedido: string
 }
 
+export type FlashCard = {
+  pergunta: string
+  resposta: string
+}
+
 export type LicaoCompleta = {
   id: string
   gancho: string
@@ -46,6 +51,7 @@ export type LicaoCompleta = {
   aplicacaoPratica: string[]
   perguntaReflexao: string
   oracaoModelo: OracaoModelo
+  flashCards?: FlashCard[]
 }
 
 export type QuizOpcao = {

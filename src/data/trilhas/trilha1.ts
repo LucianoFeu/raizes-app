@@ -88,6 +88,36 @@ O ponto mais importante de Romanos 1, porém, não é filosófico — é pessoal
           pedido:
             'Me dá coragem para buscar respostas com honestidade e sem medo do que vou descobrir. E me dá fé para confiar em ti no que ainda não entendo completamente, sabendo que tu não és um Deus escondido, mas um Deus que escolheu se mostrar.',
         },
+        flashCards: [
+          {
+            pergunta: 'O que é revelação geral?',
+            resposta: 'É o que Deus comunica a todos os seres humanos através da criação, da história e da consciência humana — independente de terem acesso à Bíblia.',
+          },
+          {
+            pergunta: 'O que é revelação especial? Como se diferencia da geral?',
+            resposta: 'É a Bíblia e a pessoa de Jesus — Deus falando de forma direta e específica. A revelação geral é universal e contínua; a especial é mais profunda e aponta para o caminho da salvação.',
+          },
+          {
+            pergunta: 'O que significa a palavra grega "phanerón" em Romanos 1:19?',
+            resposta: 'Manifesto, tornado visível ativamente. Paulo diz que Deus já se revelou — não que pode ser deduzido com esforço, mas que se apresentou diante de todos. A iniciativa é de Deus.',
+          },
+          {
+            pergunta: 'Por que Paulo diz que os seres humanos são "indesculpáveis" em Romanos 1:20?',
+            resposta: 'Porque a revelação geral já é suficiente: o eterno poder e a natureza divina de Deus ficam claramente visíveis na criação desde o início. Ninguém pode alegar falta de evidência.',
+          },
+          {
+            pergunta: 'O que o projeto da Universidade de Oxford (2007–2012) descobriu sobre crença em um Criador?',
+            resposta: 'Que humanos têm uma tendência cognitiva natural de perceber design e intencionalidade no mundo — chamada "intuição teísta" — que aparece mesmo em crianças sem educação religiosa.',
+          },
+          {
+            pergunta: 'Qual é o argumento central de C.S. Lewis na citação "acreditei que o sol havia nascido"?',
+            resposta: 'Que a fé funciona como luz: você não precisa provar o sol antes de ver por meio dele. A fé em Deus ilumina a realidade sem precisar de prova matemática prévia.',
+          },
+          {
+            pergunta: 'O que a "inquietação" descrita por Agostinho tem a ver com revelação geral?',
+            resposta: 'O vazio que nenhuma riqueza, prazer ou reconhecimento preenche é uma bússola interna apontando para Deus — evidência de que fomos feitos para algo além do mundo material.',
+          },
+        ],
       },
       microInteracoes: [
         {

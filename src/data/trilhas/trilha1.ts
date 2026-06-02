@@ -259,58 +259,113 @@ O ponto mais importante de Romanos 1, porém, não é filosófico — é pessoal
     {
       id: 'semana-1-2',
       numero: 2,
-      tema: 'Quem Deus diz que é',
-      nucleoDoutrinario: 'Revelação especial e atributos divinos',
+      tema: 'A Bíblia é confiável?',
+      nucleoDoutrinario: 'Inspiração e autoridade das Escrituras',
       concluida: false,
       licaoCompleta: {
         id: 'licao-1-2',
-        gancho: 'Você já teve um amigo que todo mundo descrevia diferente? Às vezes a única forma de saber quem alguém realmente é — é deixar que ela mesma se apresente.',
+        gancho:
+          'Você já deve ter ouvido alguém dizer: "a Bíblia foi escrita por homens, então pode ter erro". É uma dúvida honesta. Mas ela pressupõe uma coisa que vale a pena examinar: o que a Bíblia diz sobre si mesma e como chegou até nós. Antes de confiar num livro, você precisa saber o que ele é. Hoje é esse o passo.',
         textoBiblicoPrincipal: {
-          referencia: 'Êxodo 34:6-7',
-          texto: 'O Senhor passou à sua frente, proclamando: O Senhor, o Senhor, Deus compassivo e misericordioso, tardio em irar-se e abundante em amor e fidelidade, que mantém o amor até a milésima geração e perdoa a iniquidade, a transgressão e o pecado.',
+          referencia: '2 Timóteo 3:16-17',
+          texto:
+            'Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção e para a instrução na justiça, para que o homem de Deus seja apto e plenamente preparado para toda boa obra.',
           versao: 'NVI',
-          palavrasChave: ['compassivo', 'misericordioso', 'amor', 'fidelidade', 'perdoa'],
+          palavrasChave: ['inspirada', 'útil', 'apto', 'plenamente preparado'],
         },
         textosBiblicosApoio: [
           {
-            referencia: 'João 14:9',
-            texto: 'Quem me viu, viu o Pai.',
+            referencia: '2 Pedro 1:20-21',
+            texto:
+              'Antes de tudo, saibam que nenhuma profecia da Escritura provém de interpretação particular. Com efeito, a profecia nunca teve origem na vontade humana, mas homens falaram da parte de Deus, movidos pelo Espírito Santo.',
             versao: 'NVI',
-            palavrasChave: ['viu', 'Pai', 'Jesus'],
+            palavrasChave: ['profecia', 'vontade humana', 'Deus', 'Espírito Santo'],
+          },
+          {
+            referencia: 'João 17:17',
+            texto: 'Santifica-os na verdade; a tua palavra é a verdade.',
+            versao: 'NVI',
+            palavrasChave: ['santifica', 'verdade', 'palavra'],
           },
         ],
-        contextoHistorico: 'Êxodo 34 acontece após um dos momentos mais dramáticos do Antigo Testamento: o pecado do bezerro de ouro. Moisés sobe o monte novamente, depois de ter quebrado as primeiras tábuas. Nesse contexto de falha humana e graça divina, Deus decide revelar o seu próprio nome e caráter. Não é um momento de punição — é um momento de auto-revelação. Deus escolhe se definir em termos de misericórdia, amor e fidelidade.',
+        contextoHistorico:
+          'Paulo escreve 2 Timóteo por volta de 67 d.C., já preso em Roma pela segunda vez, sabendo que seria executado em breve. É uma carta pessoal para Timóteo, seu discípulo mais próximo, que estava liderando a igreja em Éfeso sozinho e enfrentando muita pressão. O contexto não era de tranquilidade acadêmica — era de urgência real.\n\nQuando Paulo diz "toda a Escritura", ele está se referindo ao que conhecemos como Antigo Testamento, que era o texto sagrado da comunidade judaica e da igreja primitiva. Os escritos do Novo Testamento ainda estavam sendo produzidos e circulando entre as igrejas. Com o tempo, a comunidade cristã reconheceu quais textos tinham autoridade apostólica e os reuniu no cânon bíblico — um processo que levou alguns séculos, mas que não foi arbitrário: havia critérios claros de autoria, consistência teológica e reconhecimento pelas igrejas.',
         palavraOriginal: {
-          palavra: 'חֶסֶד (hesed)',
-          idioma: 'hebraico',
-          pronuncia: 'KHE-sed',
-          significado: 'Amor leal, bondade covenant, misericórdia comprometida. Não é amor sentimental — é amor fiel a um compromisso.',
-          relevancia: 'Hesed é uma das palavras mais ricas do Antigo Testamento. Quando Deus usa essa palavra para se descrever, Ele está dizendo: "Meu amor por você não é baseado no seu desempenho. É baseado em quem eu sou."',
+          palavra: 'θεόπνευστος (theopneustos)',
+          idioma: 'grego',
+          pronuncia: 'the-OP-nefs-tos',
+          significado: 'Literalmente "soprado por Deus". Composta de theos (Deus) e pneustos (soprado, respirado). Paulo pode ter criado esse termo especificamente para esta carta.',
+          relevancia:
+            'A imagem não é a de Deus ditando um texto mecânico para um secretário passivo. É a de um sopro que atravessa uma pessoa inteira. Os escritores bíblicos usaram seu vocabulário, seu estilo, sua personalidade — e ainda assim o resultado é chamado de "soprado por Deus". A inspiração respeita a humanidade dos autores sem eliminar a origem divina do conteúdo.',
         },
-        explicacaoDoutrina: `Deus não é apenas uma força ou um conceito filosófico — Ele é uma pessoa com caráter, e Ele escolheu se revelar. Isso é o que chamamos de revelação especial: Deus falando diretamente, seja por profecias, aparições, ou — culminando em Jesus — por se tornar humano.
+        explicacaoDoutrina: `A palavra "inspirada" em 2 Timóteo 3:16 não significa "muito bonito" ou "motivador", como usamos no dia a dia. No original grego, ela diz que as Escrituras foram literalmente "sopradas por Deus". Isso é o que os teólogos chamam de inspiração verbal e plenária: verbal porque se aplica às próprias palavras do texto, e plenária porque abrange toda a Escritura, não apenas partes selecionadas.
 
-Os atributos de Deus revelados em Êxodo 34 são o coração do Antigo Testamento. Compaixão, misericórdia, paciência, amor fiel, fidelidade, perdão. Esses não são atributos secundários — são o nome de Deus. É assim que Ele se apresenta.
+Isso não significa que Deus ditou cada palavra como se os escritores fossem robôs. A Bíblia foi escrita por cerca de 40 autores diferentes, ao longo de aproximadamente 1.500 anos, em três idiomas distintos (hebraico, aramaico e grego), em culturas completamente diferentes. E ainda assim há uma coerência teológica notável do início ao fim — uma história que começa com criação, passa por queda, redenção e aponta para restauração. Essa unidade interna é um dos argumentos mais sólidos para a origem sobrenatural do texto.
 
-Mas há uma tensão saudável: o mesmo texto fala que Deus não deixa o culpado sem punição. Os atributos de Deus não se contradizem — eles se complementam. A justiça de Deus é o que torna sua misericórdia tão extraordinária. Perdoar não é fazer de conta que o mal não aconteceu — é carregar o custo.
+A questão da confiabilidade histórica também importa. A Bíblia não é apenas um livro teológico — ela faz afirmações históricas, geográficas e culturais. E o registro arqueológico tem confirmado uma quantidade impressionante dessas afirmações ao longo dos séculos. Cidades que existiam apenas na Bíblia foram escavadas. Reis mencionados nas Escrituras apareceram em inscrições de pedra. Isso não prova a inspiração divina, mas mostra que o texto tem raízes em eventos reais.
 
-Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quando Jesus diz "quem me viu, viu o Pai" (João 14:9), ele está dizendo: se você quer saber como Deus age, olha para mim — como eu trato os marginalizados, os doentes, os pecadores. Isso é Deus em pessoa.`,
+O ponto central, porém, é prático: a Bíblia não foi dada para ser apenas estudada. Paulo diz que ela é útil para ensino, repreensão, correção e instrução. Ela é uma ferramenta de formação — um texto que, quando lido com abertura, transforma quem o lê. A confiança na Bíblia não começa com um argumento vencido numa discussão. Começa com a experiência de ler e perceber que algo naquelas palavras alcança o que nenhum outro texto alcança.`,
         citacaoAutor: {
-          autor: 'A.W. Tozer',
-          citacao: 'O que nos vem à mente quando pensamos em Deus é a coisa mais importante sobre nós.',
-          contextoAutor: 'A.W. Tozer (1897-1963) foi um pastor e escritor americano que dedicou sua vida a aprofundar o conhecimento de Deus na Igreja. Seu livro "O Conhecimento do Santo" é um clássico sobre os atributos divinos.',
-          relevanciaParaLicao: 'A ideia que temos de Deus molda tudo: nossa oração, nossa ética, nossa esperança. Se nossa imagem de Deus está distorcida, nossa vida espiritual fica distorcida também. Por isso estudar quem Deus diz que é — e não apenas o que achamos que Ele é — é fundamental.',
+          autor: 'John Stott',
+          citacao:
+            'A Bíblia é a palavra de Deus escrita através de palavras de homens. Não é nem apenas humana, a ponto de poder ser descartada como produto cultural, nem tão mecânica que ignore a personalidade dos seus autores. Ela é as duas coisas ao mesmo tempo — e isso é exatamente o que tornaria impossível a qualquer ser humano inventá-la.',
+          contextoAutor:
+            'John Stott (1921–2011) foi um dos teólogos evangélicos mais influentes do século XX. Inglês, pastor em Londres por décadas, tinha o raro talento de explicar coisas profundas com linguagem acessível. Seu livro "A Cruz de Cristo" é considerado um dos melhores já escritos sobre a expiação. A revista Time o listou entre as 100 pessoas mais influentes do mundo em 2005. Era conhecido por sua disciplina intelectual e por nunca tratar as perguntas difíceis como ameaças à fé.',
+          relevanciaParaLicao:
+            'Stott captura exatamente a tensão que a doutrina da inspiração precisa sustentar. Se a Bíblia fosse apenas humana, seria descartável como qualquer outro produto histórico. Se fosse apenas divina, sem a marca dos autores, seria um texto alienígena. O fato de ser os dois ao mesmo tempo é o que torna a reivindicação cristã única — e o que torna a discussão sobre sua confiabilidade tão importante.',
+        },
+        evidenciaExterna: {
+          tipo: 'arqueologia',
+          titulo: 'Os Manuscritos do Mar Morto e a preservação do texto bíblico',
+          descricao:
+            'Em 1947, manuscritos de mais de 2.000 anos foram descobertos em cavernas perto do Mar Morto, em Israel — os chamados Manuscritos do Mar Morto. Entre eles havia uma cópia quase completa do livro de Isaías, datada de aproximadamente 125 a.C. Antes dessa descoberta, o manuscrito mais antigo disponível do AT era do século X d.C. Quando estudiosos compararam os dois textos, encontraram preservação notável: o conteúdo era essencialmente idêntico. Para comparação: a Ilíada de Homero tem ~650 manuscritos com intervalo de 500 anos. O NT tem mais de 5.800 manuscritos gregos, com fragmentos datando de menos de 100 anos após os originais. Nenhum outro documento da Antiguidade chega perto dessa evidência.',
+          fonte: 'Tov, E. (2012). Textual Criticism of the Hebrew Bible. Fortress Press. / Metzger, B. M. (1992). The Text of the New Testament. Oxford University Press.',
         },
         aplicacaoPratica: [
-          'Qual é a sua primeira imagem mental quando pensa em Deus? Um juiz severo? Um vovô bonzinho? Um distante criador? Compare essa imagem com o que Êxodo 34 revela.',
-          'O hesed (amor leal) de Deus é baseado no caráter Dele, não no seu desempenho. Isso muda como você se sente nos dias em que falha?',
-          'Se Jesus é a revelação mais completa de Deus, passa os próximos dias relendo um capítulo dos Evangelhos com esta pergunta: "O que isso me diz sobre o caráter do Pai?"',
+          'Quando alguém disser "a Bíblia foi escrita por homens", você pode concordar — e acrescentar que isso é exatamente o que ela afirma sobre si mesma. A questão não é se homens escreveram, mas se Deus agiu através deles. As duas coisas podem ser verdade ao mesmo tempo.',
+          'A confiança na Bíblia não precisa começar com um debate vencido. Pode começar com uma leitura honesta. Escolha um Evangelho — comece por Marcos, o mais curto — e leia como quem está ouvindo algo pela primeira vez. Deixa o texto falar antes de decidir o que pensar dele.',
+          'Ler a Bíblia sem método é diferente de estudá-la com atenção. A diferença entre os dois é enorme. Ao longo dessa jornada você vai aprender a ler com contexto, com perguntas certas e com ferramentas que abrem o texto. Isso transforma a leitura de uma obrigação num hábito que você vai querer manter.',
         ],
-        perguntaReflexao: 'Que atributo de Deus revelado nessa semana (compaixão, amor fiel, paciência, perdão) você mais precisa acreditar para a sua vida agora? Por quê?',
+        perguntaReflexao:
+          'Qual é a sua maior dúvida ou resistência em relação à Bíblia? Pode ser sobre a origem dela, sobre algo que você leu e não entendeu, sobre uma contradição que alguém te apontou. Escreva com honestidade — não existe resposta errada aqui, e a dúvida honesta é o começo de um entendimento real.',
         oracaoModelo: {
-          adoracao: 'Senhor, tu não és um Deus distante ou indiferente. Tu te revelaste — em Moisés, nos profetas, em Jesus. Eu te adoro porque tu escolheste ser conhecido.',
-          confissao: 'Confesso que às vezes projeto minhas próprias experiências sobre teu caráter, e esqueço de te conhecer como tu realmente és. Perdoa-me por reduzir quem tu és a uma ideia pequena.',
-          pedido: 'Que teu hesed — teu amor leal — me alcance hoje. Que eu experimente concretamente a misericórdia que tu proclamaste a Moisés. E que isso mude como eu me relaciono com as pessoas ao meu redor.',
+          adoracao:
+            'Deus, tu és um Deus que fala. Tu não ficaste em silêncio — escolheste se revelar através de palavras, de histórias, de pessoas reais que viveram em momentos reais da história. Obrigado por não nos deixar sem direção.',
+          confissao:
+            'Confesso que muitas vezes tratei a Bíblia como um livro de regras ou um texto distante, sem me aproximar com curiosidade genuína. Que eu possa chegar às Escrituras com abertura para ouvir o que tu queres me dizer, não apenas confirmar o que já penso.',
+          pedido:
+            'Me dá amor pela tua palavra. Que quando eu abrir a Bíblia, não seja por obrigação mas por desejo real de te conhecer melhor. E que o que eu ler vá se tornando cada vez mais parte de quem eu sou.',
         },
+        flashCards: [
+          {
+            pergunta: 'O que significa "theopneustos" (2 Tm 3:16)?',
+            resposta: '"Soprado por Deus" — de theos (Deus) + pneustos (soprado). Não é ditado mecânico, mas um sopro divino que atravessa a personalidade inteira de cada autor humano.',
+          },
+          {
+            pergunta: 'O que é inspiração verbal e plenária?',
+            resposta: 'Verbal: a inspiração alcança as próprias palavras do texto, não apenas as ideias gerais. Plenária: se aplica a toda a Escritura, não apenas a partes selecionadas.',
+          },
+          {
+            pergunta: 'Quais são os dados da Bíblia que apontam para sua origem sobrenatural?',
+            resposta: '~40 autores, ~1.500 anos de escrita, 3 idiomas (hebraico, aramaico e grego), culturas distintas — e ainda assim há uma única narrativa coerente do início ao fim.',
+          },
+          {
+            pergunta: 'O que foram os Manuscritos do Mar Morto e por que importam?',
+            resposta: 'Manuscritos de ~2.000 anos encontrados em 1947 — incluindo cópia de Isaías de ~125 a.C. Comparados a manuscritos mil anos mais novos, o conteúdo era essencialmente idêntico, provando a preservação notável do texto.',
+          },
+          {
+            pergunta: 'Como o NT se compara a outros textos antigos em termos de manuscritos?',
+            resposta: 'O NT tem 5.800+ manuscritos gregos, com fragmentos de menos de 100 anos após os originais. A Ilíada de Homero, considerada bem preservada, tem ~650 manuscritos com intervalo de 500 anos.',
+          },
+          {
+            pergunta: 'Quando Paulo diz "toda a Escritura" em 2 Tm 3:16, a que texto ele se refere?',
+            resposta: 'Principalmente ao Antigo Testamento — o texto sagrado da época. Os livros do NT ainda estavam sendo produzidos e circulando pelas igrejas em 67 d.C.',
+          },
+          {
+            pergunta: 'O que John Stott quis dizer ao afirmar que a Bíblia "é as duas coisas ao mesmo tempo"?',
+            resposta: 'Que é simultaneamente humana (com a personalidade e estilo de cada autor) e divina (soprada por Deus). Nenhuma das duas dimensões anula a outra — e essa combinação é o que torna a reivindicação cristã única.',
+          },
+        ],
       },
       microInteracoes: [
         {
@@ -320,10 +375,11 @@ Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quand
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            referencia: 'Êxodo 34:6',
-            texto: 'O Senhor, o Senhor, Deus compassivo e misericordioso, tardio em irar-se e abundante em amor e fidelidade.',
+            referencia: 'Salmo 119:105',
+            texto: 'A tua palavra é lâmpada que ilumina os meus pés e luz que clareia o meu caminho.',
             versao: 'NVI',
-            reflexao: 'Esta é a autodefinição de Deus. Ele escolheu essas palavras para se apresentar. Medite hoje em qual dessas palavras você mais precisa acreditar: compassivo, misericordioso, paciente, amoroso ou fiel.',
+            reflexao:
+              'O Salmo 119 é o maior capítulo da Bíblia — 176 versículos sobre a palavra de Deus. Quem o escreveu não estava sendo obrigado a valorizá-la. Estava expressando algo que experimentou. Hoje, pense: você já viveu uma situação em que uma palavra da Bíblia clarificou algo confuso para você? Se ainda não, esse é um convite aberto.',
           } as import('../../types').VersiculoConteudo,
         },
         {
@@ -333,12 +389,76 @@ Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quand
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            pergunta: 'O que significa "hesed" em hebraico?',
+            pergunta: 'O que a palavra grega "theopneustos" significa literalmente?',
             opcoes: [
-              { id: 'a', texto: 'Amor romântico e apaixonado', correta: false, explicacao: 'Esse seria mais próximo de "eros" em grego. Hesed é diferente: é amor comprometido, baseado em aliança, não em sentimento.' },
-              { id: 'b', texto: 'Amor leal e fiel baseado em compromisso', correta: true, explicacao: 'Hesed é o amor de aliança — baseado no caráter de Deus, não no desempenho humano. É por isso que ele "mantém o amor até a milésima geração".' },
-              { id: 'c', texto: 'Perdão sem consequências', correta: false, explicacao: 'O hesed inclui perdão, mas o texto de Êxodo 34 também menciona que Deus "não deixa o culpado sem punição". Misericórdia e justiça coexistem.' },
-              { id: 'd', texto: 'Força e poder divino', correta: false, explicacao: 'Força e poder são outros atributos de Deus. Hesed é especificamente sobre amor leal e bondade covenant.' },
+              {
+                id: 'a',
+                texto: 'Texto sagrado preservado pelos sacerdotes',
+                correta: false,
+                explicacao:
+                  '"Theopneustos" não tem relação com preservação sacerdotal. É uma palavra composta que descreve a origem do texto, não sua transmissão.',
+              },
+              {
+                id: 'b',
+                texto: 'Soprado por Deus',
+                correta: true,
+                explicacao:
+                  '"Theopneustos" vem de theos (Deus) e pneustos (soprado, respirado). A imagem não é de ditado mecânico, mas de um sopro divino que atravessa a personalidade e o estilo de cada autor humano.',
+              },
+              {
+                id: 'c',
+                texto: 'Escrito sob inspiração humana elevada',
+                correta: false,
+                explicacao:
+                  'Essa seria uma visão naturalista da inspiração bíblica. "Theopneustos" vai além: afirma que a origem é divina, não apenas humana — mesmo que a mediação seja humana.',
+              },
+              {
+                id: 'd',
+                texto: 'Aprovado pelo concílio de bispos',
+                correta: false,
+                explicacao:
+                  'A palavra não tem relação com concílios ou aprovação eclesiástica. Ela descreve a natureza intrínseca do texto — o que ele é desde sua origem, não o que algum grupo declarou sobre ele.',
+              },
+            ],
+          } as import('../../types').QuizConteudo,
+        },
+        {
+          id: 'micro-1-2-2b',
+          diaDaSemana: 2,
+          tipo: 'quiz',
+          xpRecompensa: 10,
+          concluida: false,
+          conteudo: {
+            pergunta: 'O que significa dizer que a inspiração bíblica é "verbal e plenária"?',
+            opcoes: [
+              {
+                id: 'a',
+                texto: 'Que apenas os discursos de Jesus têm autoridade divina',
+                correta: false,
+                explicacao:
+                  '"Plenária" significa precisamente o oposto: a inspiração abrange toda a Escritura, não apenas partes selecionadas como os discursos de Jesus.',
+              },
+              {
+                id: 'b',
+                texto: 'Que se aplica às próprias palavras do texto e abrange toda a Escritura',
+                correta: true,
+                explicacao:
+                  'Verbal significa que a inspiração alcança as próprias palavras escolhidas, não apenas as ideias gerais. Plenária significa que se aplica a toda a Escritura — sem excluir partes.',
+              },
+              {
+                id: 'c',
+                texto: 'Que a Bíblia foi ditada palavra por palavra como um texto mecânico',
+                correta: false,
+                explicacao:
+                  'Inspiração verbal não é ditado mecânico. Os autores mantiveram seu estilo, vocabulário e personalidade. Verbal descreve o alcance da inspiração, não o método de comunicação.',
+              },
+              {
+                id: 'd',
+                texto: 'Que apenas os livros do Novo Testamento são plenamente inspirados',
+                correta: false,
+                explicacao:
+                  '2 Timóteo 3:16 diz "toda a Escritura" — e Paulo estava se referindo principalmente ao Antigo Testamento. A inspiração plenária abrange o cânon inteiro, AT e NT.',
+              },
             ],
           } as import('../../types').QuizConteudo,
         },
@@ -349,8 +469,9 @@ Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quand
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            descricao: 'Mostre hesed para alguém hoje.',
-            instrucao: 'Hesed é amor leal baseado em compromisso — não em como a outra pessoa está te tratando. Hoje, escolha uma pessoa na sua vida com quem você poderia demonstrar esse tipo de amor: uma ligação, uma mensagem, um gesto concreto. Faça isso sem esperar retorno. Anote aqui o que você fez.',
+            descricao: 'Leia Marcos capítulo 1 do início ao fim.',
+            instrucao:
+              'São apenas 45 versículos — menos de 10 minutos. Leia como quem está ouvindo uma história pela primeira vez, sem pressão de entender tudo. Depois, anote uma coisa que te chamou atenção: pode ser algo que te surpreendeu, algo que não entendeu, ou algo que te tocou de alguma forma.',
           } as import('../../types').DesafioConteudo,
         },
         {
@@ -360,10 +481,13 @@ Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quand
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            autor: 'A.W. Tozer',
-            citacao: 'O que nos vem à mente quando pensamos em Deus é a coisa mais importante sobre nós.',
-            comentario: 'Tozer estava dizendo que a teologia não é abstrata — ela é pessoal. A imagem que você tem de Deus molda sua oração, sua coragem, seu relacionamentos e sua esperança. Uma imagem distorcida de Deus produz uma fé distorcida. Por isso estudar os atributos de Deus não é só para teólogos — é para quem quer viver bem.',
-            contextoAutor: 'A.W. Tozer viveu numa época em que a Igreja americana estava se tornando cada vez mais superficial. Ele nadou contra a corrente, insistindo que conhecer Deus profundamente é a tarefa central da vida cristã.',
+            autor: 'B.B. Warfield',
+            citacao:
+              'A Bíblia é a palavra de Deus de tal forma que quando a Bíblia fala, Deus fala.',
+            comentario:
+              'A afirmação de Warfield é forte, mas ela reflete exatamente o que 2 Pedro 1:21 diz: os homens "falaram da parte de Deus, movidos pelo Espírito Santo". Não é que a Bíblia contém a palavra de Deus em alguns trechos e palavras humanas em outros. A reivindicação cristã histórica é que o texto inteiro, produzido por pessoas reais, é o meio pelo qual Deus escolheu falar. Isso eleva enormemente a responsabilidade de quem lê.',
+            contextoAutor:
+              'Benjamin Breckinridge Warfield (1851–1921) foi professor de teologia no Seminário de Princeton por 34 anos. É considerado um dos maiores defensores da doutrina da inerrância bíblica da história. O que poucos sabem: era também um estudioso rigoroso que não tratava as perguntas críticas sobre a Bíblia como ameaças — respondia a elas com seriedade acadêmica e sem defensividade. Sua obra "Inspiration and Authority of the Bible" ainda é referência no assunto.',
           } as import('../../types').CitacaoConteudo,
         },
         {
@@ -373,8 +497,9 @@ Para o cristão, a revelação mais completa do caráter de Deus é Jesus. Quand
           xpRecompensa: 10,
           concluida: false,
           conteudo: {
-            pergunta: 'Como o que você aprendeu sobre o caráter de Deus nessa semana (hesed, compaixão, fidelidade) muda a forma como você quer se relacionar com Ele?',
-            dica: 'Pense em como a imagem que você tinha de Deus antes dessa semana pode ter sido diferente do que a Bíblia revela.',
+            pergunta:
+              'Depois dessa semana: o que mudou na forma como você pensa sobre a Bíblia? Pode ser algo que ficou mais claro, uma dúvida que surgiu, ou uma resistência que diminuiu. Escreva com honestidade sobre onde você está agora em relação a confiar nesse texto.',
+            dica: 'Não precisa resolver todas as dúvidas agora. Escreva honestamente sobre onde você está — o que ficou mais claro, o que ainda parece difícil, e o que você quer explorar mais.',
           } as import('../../types').RevisaoConteudo,
         },
       ],
